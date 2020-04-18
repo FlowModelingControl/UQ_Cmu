@@ -31,6 +31,28 @@
 % OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 % OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+% Author: Richard Semaan
+% Affiliation: Technische Universität Braunschweig
+% Contact: r.semaan@tu-bs.de
+% Release date: Apr. 18, 2020
+% Version: v 1.0
+% 
+% Installation
+% -------------------------
+% - No installation needed
+% 
+% Input
+% -------------------------
+% - Selection among the various approaches and 3 scenarios
+% - Individual random and systematic uncertainties of various variables
+% - Gas constant, pressure ratio, jet exit pressure, blowing intensity*, nominal height* (* denotes variables that are only needed for the UPCs)
+% 
+% Output
+% -------------------------
+% - Uncertainty of Cmu
+% - UPC of all deopendent variables
+% 
+% ===============================================================================================
 clear; close all; clc
 
 %% Input
